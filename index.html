@@ -9,11 +9,10 @@
 <body>
 <header>
     <div class="container">
-        <div class="title-header">
+        <div class="title-header justify-center">
             <div class="logo">
                 <a href="index.html">
                     <img src="images/logo.png" alt="Logo">
-                    <img src="images/coffee-cup-icon.png" alt="Logo">
                 </a>
             </div>
             <div class="title">ClydeBank Coffee Shop</div>
@@ -22,7 +21,7 @@
 </header>
 <nav>
     <div class="container">
-        <ul>
+        <ul class="nav-bar">
             <li class="active"><a href="index.html">Menu</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="events.html">Events</a></li>
@@ -30,14 +29,13 @@
         </ul>
     </div>
 </nav>
-<main>
-    <div class="container">
-        <div class="menu-item additional-items">
-            <div class="title-item clearfix">
+<main >
+    <div class="container flex justify-around">
+        <div class="menu-item additional-items flex-col">
+            <div class="title-item clearfix mb-1">
                 <h2><img src="images/drink_icon.png" alt="Icon"> Drinks</h2>
-                <h2>Add soy, Rice or Almond Milk <img src="images/milk_icon.png" alt="Icon"></h2>
             </div>
-            <div class="item-inner clearfix">
+            <div class="item-inner clearfix mb-15">
                 <ul>
                     <li>Espresso $1.75</li>
                     <li>Macchiato $2.00</li>
@@ -45,14 +43,19 @@
                     <li>Latte $3.00</li>
                     <li>Regular Coffe $1.50</li>
                 </ul>
+            </div>
+            <div class="title-item clearfix mb-1">
+                <h2>Add soy, Rice or Almond Milk</h2>
+            </div>
+            <div class="item-inner clearfix">
                 <ul>
                     <li>+ $0.75</li>
                 </ul>
             </div>
         </div>
         <div class="menu-item">
-            <div class="title-item">
-                <h2><img src="images/food_Icon.png" alt="Icon"> Food</h2>
+            <div class="title-item mb-1">
+                <h2><img src="images/food_icon.png" alt="Icon"> Food</h2>
             </div>
             <div class="item-inner">
                 <ul>
@@ -67,9 +70,9 @@
         </div>
     </div>
 </main>
-<footer>
+<footer class="absolute-bottom-0">
     <div class="container">
-        <h2 class="text-white">Contact</h2>
+        <h2 class="text-white m-5">Contact</h2>
         <address>
             <ul>
                 <li>Address: 4578 Marmora Road,Glasgow D04 89GR</li>
